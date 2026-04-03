@@ -1,6 +1,6 @@
 # stable-diffusion-stimuli
 
-Code for **Study 1** of the PhD dissertation:
+Code for stimulus generation in:
 
 > Pettini, L., Bogler, C., Doeller, C., & Haynes, J.-D. (2025). Synthesis and perceptual scaling of high-resolution naturalistic images using Stable Diffusion. *Behavior Research Methods, 58*(1), 24.
 > https://doi.org/10.3758/s13428-025-02889-8
