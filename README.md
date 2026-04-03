@@ -12,24 +12,23 @@ Code for stimulus generation in:
 A central challenge in visual cognition research is to design naturalistic
 stimuli that are both ecologically valid and experimentally controlled.
 Standard approaches based on existing image databases offer limited control
-over fine-grained perceptual similarity within a stimulus class. Study 1
-addresses this problem using deep generative modelling.
+over fine-grained perceptual similarity within a stimulus class. In our study, we
+address this problem using deep generative modelling.
 
-In Study 1, we developed a methodological approach based on **Stable Diffusion
+We developed a methodological approach based on **Stable Diffusion
 XL** to synthesise a new set of experimental stimuli in a controlled way. The
 stimuli are naturalistic *object-scenes*: images of a central object embedded
 in a coherent scene, generated across a wide range of categories. For each
 object-scene, the method produces a set of variations ordered on a perceptual
 gradient. This makes the stimuli suitable for threshold-level perceptual
-discrimination tasks, while preserving the perceptual and semantic richness
-needed for subsequent memory experiments.
+discrimination tasks, while preserving the semantic meaning of each object-scene set.
 
 The final corpus comprises **108 object-scenes** spanning **six semantic
 categories**: animals, plants, landscape elements, buildings, vehicles, and
 items. Each object-scene is represented by a set of 10 ordered variations that
 preserve semantic identity while differing in fine perceptual detail.
 
-Study 1 as a whole comprised three stages:
+The study as a whole comprised three stages:
 
 - **Stage 1** — synthesis and model-based perceptual scaling of the stimulus set
 - **Stage 2** — psychophysical validation via similarity judgements
@@ -41,7 +40,7 @@ were subsequently validated in Stages 2 and 3.
 
 ---
 
-## Study 1, Stage 1
+## Synthesis of object-scene stimuli on a perceptual scale
 
 The Stage 1 pipeline follows five conceptual steps (S1–S5), illustrated below.
 
