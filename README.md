@@ -45,7 +45,7 @@ were subsequently validated in Stages 2 and 3.
 
 The Stage 1 pipeline follows five conceptual steps (S1–S5), illustrated below.
 
-![Pipeline overview](assets/pipeline_overview.png)
+![Pipeline overview](assets/stage1_pipeline_overview.png)
 
 *Figure adapted from Pettini et al. (2025).*
 
