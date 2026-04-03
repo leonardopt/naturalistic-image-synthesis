@@ -45,7 +45,7 @@ were subsequently validated in Stages 2 and 3.
 
 The Stage 1 pipeline follows five conceptual steps (S1–S5), illustrated below.
 
-![Pipeline overview](https://doi.org/10.3758/s13428-025-02889-8)
+![Pipeline overview](assets/pipeline_overview.png)
 
 **(S1)** A text prompt is designed for each of the 108 object-scenes (e.g., *"award-winning marine photo of a colorful fish in a coral reef, centered in the scene, vibrant underwater scene, high detail"*).
 
