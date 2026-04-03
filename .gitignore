@@ -1,0 +1,46 @@
+# Private environment — contains local paths, never commit
+.env
+.env_*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.python-version
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# Generated output — all data lives in BASE_DIR outside the repo,
+# but these patterns guard against accidental runs from within the repo
+stable_diffusion_stimuli/anchor_images/
+stable_diffusion_stimuli/excluded_images/
+stable_diffusion_stimuli/similarity_scores*/
+stable_diffusion_stimuli/selected_pair_images*/
+stable_diffusion_stimuli/changed_pair_images*/
+stable_diffusion_stimuli/interpolations*/
+stable_diffusion_stimuli/selected_interpolations*/
+stable_diffusion_stimuli/stimulus_set_from_interpolations*/
+stable_diffusion_stimuli/test_images/
+stable_diffusion_stimuli/**/*.parquet
+stable_diffusion_stimuli/**/*.csv
+stable_diffusion_stimuli/archive/**/*
+naturalistic_image_synthesis/stimulus_set_designs/
+
+
+# Model weights
+LoRAs/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+naturalistic_image_synthesis/archive

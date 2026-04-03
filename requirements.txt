@@ -1,0 +1,14 @@
+torch
+diffusers
+transformers
+accelerate
+lpips
+pandas
+pyarrow
+Pillow
+scipy
+numpy
+seaborn
+matplotlib
+python-dotenv
+pytest
