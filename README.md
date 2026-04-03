@@ -47,6 +47,8 @@ The Stage 1 pipeline follows five conceptual steps (S1–S5), illustrated below.
 
 ![Pipeline overview](assets/pipeline_overview.png)
 
+*Figure adapted from Pettini et al. (2025).*
+
 **(S1)** A text prompt is designed for each of the 108 object-scenes (e.g., *"award-winning marine photo of a colorful fish in a coral reef, centered in the scene, vibrant underwater scene, high detail"*).
 
 **(S2)** 60 image exemplars are generated per object-scene using SDXL base + refiner, each from a distinct random noise seed, ensuring within-scene semantic consistency.
