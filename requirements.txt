@@ -1,14 +1,33 @@
-torch
-diffusers
-transformers
-accelerate
-lpips
-pandas
-pyarrow
-Pillow
-scipy
-numpy
-seaborn
-matplotlib
-python-dotenv
-pytest
+# Core deep learning
+torch==2.1.2
+torchvision==0.16.2
+xformers==0.0.23.post1
+
+# Diffusion models
+diffusers==0.25.1
+transformers==4.37.2
+accelerate==0.26.1
+
+# Perceptual similarity
+lpips==0.1.4
+
+# Data
+pandas==2.1.4
+pyarrow==14.0.2
+numpy==1.26.3
+
+# Image processing
+Pillow==10.2.0
+
+# Visualisation
+seaborn==0.13.2
+matplotlib==3.8.2
+
+# Clustering (used in pipe_03)
+scipy==1.12.0
+
+# Config
+python-dotenv==1.0.1
+
+# Testing
+pytest==7.4.4
